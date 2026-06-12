@@ -141,3 +141,47 @@ header {
     background: white;
     color: black;
 }
+/* WhatsApp Container */
+.whatsapp-container {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    z-index: 9999;
+}
+
+/* Chat Bubble */
+.whatsapp-tooltip {
+    background: #ffffff;
+    color: #333333;
+    padding: 10px 16px;
+    border-radius: 25px;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+    font-weight: 600;
+    white-space: nowrap;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+/* WhatsApp Button */
+.whatsapp-float {
+    width: 65px;
+    height: 65px;
+    background-color: #25D366;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    flex-shrink: 0;
+}
+
+/* Hover Effect */
+.whatsapp-float:hover {
+    transform: scale(1.08);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.35);
+}
